@@ -11,8 +11,12 @@
 	scrollbar-color: #ff0157, #00bfa5
 }
 
+.hide-canvas {
+    display: none;
+}
+
 *::-webkit-scrollbar {
-	width: .14vh
+	width: .9vh
 }
 
 *::-webkit-scrollbar-track {
