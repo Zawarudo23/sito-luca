@@ -151,7 +151,7 @@ header.sticky .navigation li a
 
 header .navigation li a:hover
 {
-    color: #ff0157;
+    color: #ff0157 !important;
 }
 
 section
