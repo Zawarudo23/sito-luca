@@ -407,6 +407,7 @@ input, textarea
 
     .contactForm .inputBox input[type="submit"]
     {
+
         font-size: 1em;
         color: #fff;
         background: #ff0157;
@@ -414,7 +415,7 @@ input, textarea
         text-transform: uppercase;
         letter-spacing: 2px;
         transition: 0.5s;
-        max-width: 100px;
+        width: auto;
         font-weight: 500;
         border: none;
         cursor: pointer;
