@@ -503,6 +503,20 @@ input, textarea
     {
         filter: invert(1);
     }
+
+    section
+    {
+        padding: 20px;
+    }
+    .banner .content h2
+    {
+        font-size: 3em;
+        color: #fff;
+    }
+    .row
+    {
+        flex-direction: column;
+    }
 }
 
 /*
