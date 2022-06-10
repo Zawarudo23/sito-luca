@@ -530,10 +530,10 @@ input, textarea
         z-index: 10000;
     }
 
-    header.sticky .menuToggle
+    /*header.sticky .menuToggle
     {
         filter: invert(1);
-    }
+    }*/
 
     section
     {
