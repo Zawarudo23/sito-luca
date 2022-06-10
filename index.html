@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <header>
+        <header id="vanta">
             <a href="#" class="logo">Food<span>.</span></a>
             <div class="menuToggle" onclick="toggleMenu();"></div>
             <ul class="navigation">
@@ -296,6 +296,22 @@
                 menuToggle.classList.toggle('active');
                 navigation.classList.toggle('active');
             }
+
+            
+        </script>
+        <script src="three.r119.min.js"></script>
+        <script src="vanta.birds.min.js"></script>
+        <script>
+        VANTA.BIRDS({
+          el: "#vanta",
+          mouseControls: true,
+          touchControls: true,
+          gyroControls: false,
+          minHeight: 200.00,
+          minWidth: 200.00,
+          scale: 1.00,
+          scaleMobile: 1.00
+        })
         </script>
     </body>
 </html>
