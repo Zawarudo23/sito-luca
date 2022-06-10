@@ -11,6 +11,10 @@
 	scrollbar-color: #ff0157, #00bfa5
 }
 
+.vanta-canvas
+{
+    display: none;
+}
 .hide-canvas {
     display: none;
 }
@@ -465,6 +469,10 @@ input, textarea
 
 @media (max-width: 991px)
 {
+    .vanta-canvas
+    {
+        display: block !important;
+    }
     header,
     header.sticky
     {
