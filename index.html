@@ -10,7 +10,7 @@
         <header>
             <a href="#" class="logo">Food<span>.</span></a>
             <div class="menuToggle" onclick="toggleMenu();"></div>
-            <ul class="navigation" id="vanta" onresize="effect.resize()">
+            <ul class="navigation" id="vanta" onload="effect.resize()" onresize="effect.resize()">
                 <li> <a href="#banner" onclick="toggleMenu();">Home</a></li>
                 <li> <a href="#about" onclick="toggleMenu();">About</a></li>
                 <li> <a href="#menu" onclick="toggleMenu();">Menu</a></li>
@@ -310,6 +310,8 @@
           scale: 1.00,
           scaleMobile: 1.00,
           color: 0xe121d4,
+          minHeight: 1000.00,
+          minWidth: 1000.00,
           backgroundColor: 0xffffff,
           points: 5.00
         })
