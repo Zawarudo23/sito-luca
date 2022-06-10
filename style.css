@@ -495,7 +495,7 @@ input, textarea
 
     header .navigation li a
     {
-        color: #fff;
+        color: #fff !important;
         font-size: 1.6em;
     }
 
