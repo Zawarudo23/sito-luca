@@ -491,12 +491,11 @@ input, textarea
     header .navigation li
     {
         margin-left: 0;
-        color: #fff;
     }
 
     header .navigation li a
     {
-        color: #111;
+        color: #fff;
         font-size: 1.6em;
     }
 
