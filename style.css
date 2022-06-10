@@ -495,9 +495,7 @@ input, textarea
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        background: #fff;
-        overflow: hidden;
-    }
+        background: #fff;    }
 
     header .navigation li
     {
@@ -529,7 +527,6 @@ input, textarea
         background-repeat: no-repeat;
         background-position: center;
         z-index: 10000;
-        overflow: hidden;
     }
 
     /*header.sticky .menuToggle
