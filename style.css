@@ -488,7 +488,8 @@ input, textarea
         width: 100%;
         height: 100%;
         position: fixed;
-        top: 68px;
+       /* top: 68px;*/
+        top: 0;
         left: 0;
         display: flex;
         justify-content: center;
@@ -526,6 +527,7 @@ input, textarea
         background-size: 25px;
         background-repeat: no-repeat;
         background-position: center;
+        z-index: 10000;
     }
 
     header.sticky .menuToggle
