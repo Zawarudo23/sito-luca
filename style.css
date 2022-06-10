@@ -8,11 +8,11 @@
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
     scrollbar-width: thin;
-	scrollbar-color: #5d1196, #00bfa5
+	scrollbar-color: #ff0157, #00bfa5
 }
 
 *::-webkit-scrollbar {
-	width: .6vh
+	width: .14vh
 }
 
 *::-webkit-scrollbar-track {
@@ -20,9 +20,9 @@
 }
 
 *::-webkit-scrollbar-thumb {
-	background-color: #5d1196;
+	background-color: #ff0157;
 	border-radius: 2vh;
-	border: .3vh solid #5d1196, #00bfa5
+	border: .3vh solid #ff0157, #00bfa5
 }
 
 p
