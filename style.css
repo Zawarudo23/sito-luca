@@ -146,7 +146,7 @@ header .navigation li a
 
 header.sticky .navigation li a
 {
-    color: #fff;
+    color: #111;
 }
 
 header .navigation li a:hover
@@ -491,6 +491,7 @@ input, textarea
     header .navigation li
     {
         margin-left: 0;
+        color: #fff;
     }
 
     header .navigation li a
