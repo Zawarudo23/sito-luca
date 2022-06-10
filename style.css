@@ -388,16 +388,6 @@ input, textarea
     .contactForm .inputBox input[type="submit"]
     {
         font-size: 1em;
-    color: #fff;
-    background: #ff0157;
-    display: inline-block;
-    padding: 10px 30px;
-    margin-top: 20px;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 2px;
-    transition: 0.5s;
-        /*font-size: 1em;
         color: #fff;
         background: #ff0157;
         display: inline-block;
@@ -407,14 +397,13 @@ input, textarea
         max-width: 100px;
         font-weight: 500;
         border: none;
-        cursor: pointer;*/
+        cursor: pointer;
     }
 
     .contactForm .inputBox input[type="submit"]:hover
     {
         letter-spacing: 6px;
-        width: 20px;
-
+        
     }
 
 .contactForm
