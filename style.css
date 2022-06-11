@@ -85,7 +85,7 @@ p
 
 .banner .content h2::before
 {
-    background: white;
+    background: teal;
     animation: typewriter 4s steps(27) forwards;
 }
 
