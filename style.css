@@ -67,23 +67,6 @@ p
     position: relative;
 }
 
-.banner .content h2::before,
-.banner .content h2::after
-{
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-}
-
-@keyframes typewriter
-{
-    to{left: 100%;}
-}
-
-
 
 
 
