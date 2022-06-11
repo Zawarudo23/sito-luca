@@ -433,6 +433,20 @@ bottom: -50px;
     background-position-y: top;
 }
 
+.contactForm .titleText
+{
+    color: #111;
+    font-size: 2em;
+    font-weight: 300;
+}
+
+.contactForm .titleText span
+{
+    color: #ff0157;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
 form
 {
    width: 100%;
