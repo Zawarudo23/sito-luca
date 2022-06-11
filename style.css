@@ -539,10 +539,15 @@ input, textarea
         z-index: 10000;
     }
 
-    /*header.sticky .menuToggle
+    header.sticky .menuToggle
     {
         filter: invert(1);
-    }*/
+    }
+
+    header.sticky .menuToggle.active
+    {
+        filter: invert(0);
+    }
 
     section
     {
