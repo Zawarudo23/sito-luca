@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unicredit</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Luca<span>.</span></a>
+        <div class="menuToggle" onclick="toggleMenu();effect.resize();"></div>
+        <ul class="navigation" id="vanta" onload="effect.resize()" onresize="effect.resize()">
+            <li> <a href="#banner" onclick="toggleMenu();">Home</a></li>
+            <li> <a href="index.html#about" onclick="toggleMenu();">About</a></li>
+            <li> <a href="#menu" onclick="toggleMenu();">PCTO</a></li>
+            <li> <a href="#expert" onclick="toggleMenu();">Expert</a></li>
+            <li> <a href="#testimonials" onclick="toggleMenu();">Testimonials</a></li>
+            <li> <a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </header>
+    <section class="banner" id="banner">
+        <div class="content"> 
+            <h2>Le scelte cambiano il futuro</h2>       
+                 
+        </div>
+        <div class="prova">
+            <p>L'uomo incontra Dio dietro ogni porta che la scienza riesce ad aprire.</p>
+            <p>-A. Einstein</p>
+            <div class="button">
+            <a href="#about" class="btn">Chi sono</a>
+            </div>
+        </div>
+    </section>
+
+    <script type="text/javascript">
+        window.addEventListener('scroll', function(){
+            const header = document.querySelector('header');
+            header.classList.toggle("sticky", window.scrollY > 0);
+        });
+
+        
+
+
+        function toggleMenu()
+        {
+            const menuToggle = document.querySelector('.menuToggle');
+            const navigation = document.querySelector('.navigation');
+            menuToggle.classList.toggle('active');
+            navigation.classList.toggle('active');
+            if (menuToggle.classList.contains('active'))
+                canvas.classList.remove('hide-canvas')
+            else
+                canvas.classList.add('hide-canvas')
+        }
+
+        
+    </script>
+    <script src="three.r119.min.js"></script>
+    <script src="vanta.globe.min.js"></script>
+    <script>
+   const effect =  VANTA.GLOBE({
+      el: "#vanta",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      scale: 1.00,
+      scaleMobile: 1.00
+    })
+    
+   
+    const canvas = document.querySelector('.vanta-canvas');
+    canvas.classList.add('hide-canvas')
+    </script>
+</body>
+</html>
