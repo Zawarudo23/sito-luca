@@ -62,7 +62,30 @@ p
 .banner .content h2
 {
     font-size: 5em;
+    font-style: monospace;
     color: #fff;
+    position: relative;
+}
+
+.banner .content h2::before,
+.banner .content h2::after
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.banner .content h2::before
+{
+    background: teal;
+    animation: typewriter 1s ease;
+}
+
+@keyframes typewriter
+{
+    to{left: 100%;}
 }
 
 .banner .content p
