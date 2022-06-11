@@ -83,11 +83,7 @@ p
     to{left: 100%;}
 }
 
-.banner .content h2::before
-{
-    background: teal;
-    animation: typewriter 4s steps(27) forwards;
-}
+
 
 
 
