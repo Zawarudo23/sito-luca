@@ -86,7 +86,7 @@ p
 .banner .content h2::before
 {
     background: teal;
-    animation: typewriter 1s ease;
+    animation: typewriter 2s ease;
 }
 
 
