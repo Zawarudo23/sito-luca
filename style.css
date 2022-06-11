@@ -68,7 +68,7 @@ p
     overflow: hidden;
     
     color: #fff;
-    white-space: break-spaces;
+    white-space: nowrap;
     animation: typing 8s forwards;
     font-size: 5em; 
     width: 0;
