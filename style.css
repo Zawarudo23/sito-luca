@@ -483,6 +483,11 @@ input, textarea
         display: none;
     }
 
+    .banner
+    {
+        background-position: center;
+    }
+
     header .navigation.active
     {
         width: 100%;
