@@ -68,7 +68,10 @@ p
 
 .banner .content .prova
 {
-    left: 30px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 
