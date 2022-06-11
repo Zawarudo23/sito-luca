@@ -488,7 +488,7 @@ input, textarea
         background-position: center;
         background-position-y: -40px;
         background-repeat: no-repeat;
-        background: scroll;
+        background: fixed;
     }
 
     header .navigation.active
