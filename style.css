@@ -619,7 +619,7 @@ input, textarea
     }
     .row .col50 .imgBx img
     {
-        width: 300px;
+        width: 300px !important;
     }
     .menu .content
     {
