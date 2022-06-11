@@ -429,7 +429,7 @@ bottom: -50px;
 .contact
 {
     background: url(ragazzi-libri.jpg);
-    background-size: cover;
+    background-position: left;
 }
 
 form
