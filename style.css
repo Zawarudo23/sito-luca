@@ -486,7 +486,7 @@ input, textarea
     .banner
     {
         background-position: center;
-        background-position-y: 20px;
+        background-position-y: -40px;
         background-repeat: no-repeat;
     }
 
