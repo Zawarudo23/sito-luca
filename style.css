@@ -661,6 +661,7 @@ input, textarea
     }
     .titleText
     {
+        margin-top: 60px;
         font-size: 1.8em;
         line-height: 1.5em;
         margin-bottom: 15px;
