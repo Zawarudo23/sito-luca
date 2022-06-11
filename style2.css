@@ -389,7 +389,11 @@ input, textarea
 {
     color: #333;
 }
+.copyrightText span
+{
+    color: #ff0157;
 
+}
 .copyrightText a
 {
     color: #ff0157;
