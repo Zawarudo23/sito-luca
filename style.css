@@ -50,8 +50,6 @@ p
     align-items: center;
     background: url(sfondo-sito-Luca-Napoli.jpg);
     background-size: cover;
-    background-position-y: -20px;
-    background-repeat: no-repeat;
 }
 
 .banner .content
