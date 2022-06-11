@@ -49,7 +49,7 @@ p
     justify-content: center;
     align-items: center;
     background: url(sfondo-sito-Luca-Napoli.jpg);
-    background-size: contain;
+    background-size: cover;
 }
 
 .banner .content
