@@ -486,6 +486,7 @@ input, textarea
     .banner
     {
         background-position: center;
+        background-position-y: 20px;
     }
 
     header .navigation.active
