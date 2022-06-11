@@ -487,6 +487,7 @@ input, textarea
     {
         background-position: center;
         background-position-y: 20px;
+        background-repeat: no-repeat;
     }
 
     header .navigation.active
