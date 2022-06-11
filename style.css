@@ -66,8 +66,13 @@ p
     position: relative;
 }
 
+.banner .content .prova
+{
+    left: 30px;
+}
 
-.banner .content p
+
+.banner .content .prova p
 {
     font-size: 1em;
     color: #fff;
