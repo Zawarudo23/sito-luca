@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
 *
 {
     margin: 0;
@@ -62,6 +67,7 @@ p
 {
     font-size: 5em;
     color: #fff;
+    animation: typing 1s forwards;
 }
 
 .banner .content p
