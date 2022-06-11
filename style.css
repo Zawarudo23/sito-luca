@@ -43,8 +43,8 @@ p
 .banner
 {
     position: relative;
-    width: 101%;
-    min-height: 100vh;
+    width: 100%;
+    min-height: 110vh;
     display: flex;
     justify-content: center;
     align-items: center;
