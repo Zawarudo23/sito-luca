@@ -66,16 +66,8 @@ p
     position: relative;
 }
 
-.banner .content .prova
-{
-    position: relative;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
 
-
-.banner .content .prova p
+.banner .content p
 {
     font-size: 1em;
     color: #fff;
