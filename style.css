@@ -112,7 +112,7 @@ p
   content: '';
   height: 0;
   position: absolute;
-  width: -2px;
+  width: 0;
 }
 
 .btn:before {
@@ -222,7 +222,33 @@ section
     position: relative;
     width: 48%;
 }
+.row .col50 .button
+{
+    position: relative;
+    width: max-content;
+    border: 1px solid white;
+    margin-top: 20px;
+    
+}
 
+.row .col50 .button .btn
+{
+    font-size: 1em;
+    color: #111;
+    background: transparent;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 0px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+.row .col50 .button .btn:hover
+{
+    color:#ff0157;
+    transition: 0.4s;
+}
 .titleText
 {
     color: #111;
