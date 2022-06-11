@@ -81,11 +81,20 @@ p
     text-align: left;
 }
 
+.banner .button
+{
+    position: relative;
+    width: max-content;
+    border: 1px solid white;
+    margin-top: 20px;
+    
+}
+
 .btn
 {
     font-size: 1em;
     color: #fff;
-    background: #ff0157;
+    background: transparent;
     display: inline-block;
     padding: 10px 30px;
     margin-top: 20px;
@@ -95,9 +104,34 @@ p
     transition: 0.5s;
 }
 
-.btn:hover
-{
-    letter-spacing: 6px;
+.btn:before,
+.btn:after {
+  border: 0 solid transparent;
+  transition: all 0.6s;
+  content: '';
+  height: 0;
+  position: absolute;
+  width: -2px;
+}
+
+.btn:before {
+  border-top: 1px solid #ff0157;
+  border-right: 1px solid #ff0157;  
+  right: -1px;
+  top: -1px;
+}
+
+.btn:after {
+  border-bottom: 1px solid #ff0157;
+  border-left: 1px solid #ff0157;  
+  bottom: -1px;
+  left: -1px;
+}
+
+.btn:hover:before,
+.btn:hover:after {
+  width: 100.5%;
+  height: 100%;  
 }
 
 header
