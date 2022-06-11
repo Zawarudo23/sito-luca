@@ -243,6 +243,7 @@ position: relative;
 width: 100%;
 /*min-height: 300px;*/
 height: 100%;
+bottom: -50px;
 }
 
 .row .col50 .imgBx img
@@ -251,7 +252,7 @@ height: 100%;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 90%;
     object-fit: cover;
 }
 
@@ -613,8 +614,12 @@ input, textarea
     }
     .row .col50 .imgBx
     {
-        height: 300px;
+        height: 100%;
         margin-top: 20px;
+    }
+    .row .col50 .imgBx img
+    {
+        width: 300px;
     }
     .menu .content
     {
