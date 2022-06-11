@@ -103,6 +103,72 @@
         </div>
     </section>
 
+    <section class="contact" id="contact">
+        <div class="title">
+            <h2 class="titleText"><span>C</span>ontact Us</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+        </div>
+
+      <!--  <form method="post" action="form-to-email.php">
+            <label for="name"></label><br>
+            <input type="text" name="name" id="name" placeholder="Name">
+
+        </form>-->
+
+        <div class="contactForm">
+            <h3>Send Message</h3>
+
+           <!-- <form action="https://formspree.io/f/xyyovjyq" method="POST">
+                 <label>
+                         Your email:
+          <input type="email" name="email">
+                  </label>
+                 <label>
+              Your message:
+              <textarea name="message"></textarea>
+               </label>
+                your other form fields go here 
+             <button type="submit">Send</button>
+                   </form>-->
+
+            <form action="https://formspree.io/f/xyyovjyq" method="POST">
+            <div class="inputBox">
+               <label for="name">
+                   <input type="text" name="name" placeholder="Name" required>
+                </label>
+            </div>
+
+            <div class="inputBox">
+                <label for="email_address">
+                    <input type="email" name="email_address" placeholder="E-mail" required>
+                </label>
+            </div>
+
+            <div class="inputBox">
+                <label for="message">
+                    <textarea name="message" placeholder="Your Message"></textarea>
+                </label>
+            </div>
+
+            <div class="inputBox">
+                <input class="btn" type="submit" value="send" name="invio">
+            </div>
+            </form>
+        </div>
+
+        <!--<div class="copyrightText">
+            <p>Copyright 2022 <a href="#">Luca Napoli</a>. All Right Reserved®</p>
+        </div>-->
+    </section>
+
+    <section class="copyright">
+        <div class="copyrightText">
+            <p>Copyright 2022 <a href="#">Luca Napoli</a>. All Right Reserved®</p>
+        </div>
+    </section>
+
     <script type="text/javascript">
         window.addEventListener('scroll', function(){
             const header = document.querySelector('header');
