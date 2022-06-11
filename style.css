@@ -68,6 +68,8 @@ p
     font-size: 5em;
     color: #fff;
     animation: typing 2s forwards;
+    overflow: hidden;
+    width: 0;
 }
 
 .banner .content p
