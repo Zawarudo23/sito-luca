@@ -80,6 +80,15 @@ p
     text-align: left;
 }
 
+.banner .button 
+{
+    position: relative;
+    width: max-content;
+    top: 15px;
+    border: 1px solid white
+    
+}
+
 .btn
 {
     font-size: 1em;
@@ -92,12 +101,43 @@ p
     text-decoration: none;
     letter-spacing: 2px;
     transition: 0.5s;
+    outline: none;
 }
 
-.btn:hover
+
+.button .btn::before,
+.button .btn::after
 {
-    letter-spacing: 6px;
+
+  border: 0px solid transparent;
+  transition: all 0.6s;
+  content: '';
+  height: 0;
+  position: absolute;
+  width: 0px;
 }
+
+.button .btn:before {  
+  border-top: 1px solid #ff0157;
+  border-right: 1px solid #ff0157;  
+  right: -1px;
+  top: -1px;
+}
+
+.button .btn:after { 
+  border-bottom: 1px solid #ff0157;
+  border-left: 1px solid #ff0157;  
+  bottom: -1px;
+  left: -1px;
+    
+}
+
+.button .btn:hover:before,
+.button .btn:hover:after {
+  width: 100.5%;
+  height: 101%;
+}
+
 
 header
 {
