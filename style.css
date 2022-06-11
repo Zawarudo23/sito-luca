@@ -495,8 +495,13 @@ input, textarea
     font-weight: 500;
 }
 
+.copyright
+{
+    height: 15px;
+}
 .copyrightText
 {
+    margin-top: 50px;
     padding:  8px 40px;
     border-top: 1px solid rgba(0,0,0,0.1);
     text-align: center;
