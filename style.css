@@ -85,7 +85,7 @@ p
 
 .banner .content h2::before
 {
-    color: transparent;
+    background: url(sfondo-sito-Luca-Napoli.jpg);
     animation: typewriter 4s steps(27) forwards;
 }
 
