@@ -97,7 +97,10 @@ body[data-aos-duration='2000'] [data-aos],
     scrollbar-width: thin;
 	scrollbar-color: #ff0157, #00bfa5
 }
-
+body
+{
+    overflow-x: hidden;
+}
 .vanta-canvas
 {
     display: none;
