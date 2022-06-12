@@ -386,7 +386,7 @@ bottom: -50px;
 
 .menu .content .box
 {
-    width: 340px;
+    width: 305px;
     margin: 20px;
     border: 15px solid #fff;
     box-shadow: 0 5px 35px rgba(0,0,0,0.08);
@@ -403,7 +403,7 @@ bottom: -50px;
 {
     position: absolute;
     top: 0;
-    left: 0;
+    left: -8px;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -418,6 +418,11 @@ bottom: -50px;
 {
     font-weight: 400;
     color: #111;
+}
+
+.expert
+{
+  height: 1060px;
 }
 
 .expert .content
@@ -488,7 +493,7 @@ bottom: -50px;
 
 .testimonials .content .box
 {
-    width: 340px;
+    width: 305px;
     margin: 20px;
     padding: 40px;
     background: #fff;
@@ -512,7 +517,7 @@ bottom: -50px;
 {
     position: absolute;
     top: 0;
-    left: 0;
+    left: -8px;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -877,7 +882,7 @@ input, textarea
 {
     .expert .content .box .imgBx img
     {
-       width: 260px;
+       width: 220px;
     }
 }
 
@@ -887,6 +892,49 @@ input, textarea
     {
        width: 300px !important;
     }
+}
+
+
+@media (max-width: 1120px)
+{
+  .expert .content .box
+  {
+    width: 290px;
+  }
+}
+
+@media (max-width: 744px)
+{
+    .expert .content .box
+  {
+    width: 220px;
+    height: 300px
+  }
+
+}
+
+@media (max-width: 604px)
+{
+  .expert
+  {
+    height: 1300px
+  }
+  .testimonials
+  {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 372px)
+{
+  .expert
+  {
+    height: 1300px
+  }
+  .testimonials
+  {
+    margin-top: 200px;
+  }
 }
 
 /*
