@@ -706,6 +706,10 @@ input, textarea
 
 @media (max-height: 308px)
 {
+    body
+    {
+        overflow-x: hidden;
+    }
   section
   {
     min-width: 610px;
