@@ -909,6 +909,10 @@ input, textarea
 
 @media (max-width: 1120px)
 {
+    body
+    {
+        overflow-x: hidden;
+    }
   .expert .content .box
   {
     width: 290px;
