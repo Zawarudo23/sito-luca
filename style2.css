@@ -167,7 +167,7 @@ p
     width: max-content;
     border: 1px solid white;
     margin-top: 20px;
-    
+    bottom: -1px;
 }
 
 .btn
