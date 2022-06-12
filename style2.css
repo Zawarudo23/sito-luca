@@ -702,20 +702,3 @@ input, textarea
     min-width: 388px;
   }
 }
-
-
-@media (max-height: 308px)
-{
-    body
-    {
-        overflow-x: hidden;
-    }
-  section
-  {
-    min-width: 610px;
-  }
-  .banner
-  {
-    background-size: 120%;
-  }
-}
