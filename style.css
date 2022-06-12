@@ -1,5 +1,30 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 
+@-webkit-keyframes slide-right {
+    0% {
+      -webkit-transform: translateX(-200px);
+              transform: translateX(-200px);
+    }
+    100% {
+      -webkit-transform: translateX(0px);
+              transform: translateX(0px);
+    }
+  }
+ @keyframes slide-right {
+    0% {
+      -webkit-transform: translateX(-200px);
+              transform: translateX(-200px);
+    }
+    100% {
+      -webkit-transform: translateX(0px);
+              transform: translateX(0px);
+    }
+  }
+  .slide-right {
+	-webkit-animation: slide-right 1.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-right 1.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}  
+
 *
 {
     margin: 0;
