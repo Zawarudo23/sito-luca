@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 
+
+
+
 body[data-aos-duration='2000'] [data-aos],
   [data-aos][data-aos][data-aos-duration='2000'] {
     transition-duration: 2000ms;
@@ -36,7 +39,7 @@ body[data-aos-duration='2000'] [data-aos],
               transform: translateY(-150px);
     }
     100% {
-      -webkit-transform: translateY();
+      -webkit-transform: translateY(0px);
               transform: translateY(0px);
     }
   }
@@ -310,7 +313,7 @@ section
 {
     position: relative;
     width: max-content;
-    border: 1px solid white;
+    border: 1px solid #111;
     margin-top: 20px;
     
 }
