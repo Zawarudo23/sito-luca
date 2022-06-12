@@ -460,7 +460,22 @@ bottom: -50px;
     background-position-y: top;
 }*/
 
-.contact .row .col50 .imgBx
+.row3
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row3 .col53
+{
+    position: relative;
+    width: 48%;
+}
+
+
+.contact .row3 .col53 .imgBx
 {
     position: relative;
 width: 100%;
@@ -468,7 +483,7 @@ width: 100%;
 height: 100%;
 bottom: -50px;
 }
-.contact .row .col50 .imgBx img
+.contact .row3 .col53 .imgBx img
 {
     position: relative;
     top: 0;
@@ -548,7 +563,6 @@ input, textarea
     padding: 75px 50px;
     background: #fff;
     box-shadow: 0 15px 50px rgba(0,0,0,0.1);
-    max-width: 500px;
     margin-top: 50px;
 }
 
@@ -726,11 +740,34 @@ input, textarea
         margin: 10px;
         padding: 20px;
     }
-    .contactForm
+    .row3
+    {
+        flex-direction: column;
+    }
+    .contact .row3 .col53
+    {
+        width: 100%;
+    }
+    .contact .row3 .col53 .contactForm
     {
         padding: 35px 40px;
         margin-top: 20px;
         margin-bottom: 30px;
+    }
+    .contactForm
+    {
+        margin: 0;
+        width: 100%;
+    }
+    .contact .row3 .col53 .contactForm .inputBox
+    {
+        width: auto;
+    }
+
+    .contact .row3 .col53 .imgBx img
+    {
+        width: 500px !important;
+        
     }
 }
 
@@ -756,6 +793,14 @@ input, textarea
     .expert .content .box .imgBx img
     {
        width: 265px;
+    }
+}
+
+@media (max-width: 510px)
+{
+    .contact .row3 .col53 .imgBx img
+    {
+       padding-right: 90px
     }
 }
 
