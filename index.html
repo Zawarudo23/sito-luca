@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Luca Napoli</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
@@ -53,8 +54,8 @@
         <section class="about" id="about">
             <div class="row">
                 <div class="col50">
-                    <h2 class="titleText"><span>C</span>hi sono</h2>
-                    <p>Mi chiamo Luca napoli, ho 18 anni e frequento il 5° anno del Liceo Scientifico Michele Cipolla a Castelvetrano (TP).
+                    <h2 class="titleText" data-aos="slide-down" data-aos-duration='2000' ><span>C</span>hi sono</h2>
+                    <p data-aos="slide-right" data-aos-duration='2000'>Mi chiamo Luca napoli, ho 18 anni e frequento il 5° anno del Liceo Scientifico Michele Cipolla a Castelvetrano (TP).
                         Nel corso di questi anni mi è stato permesso di migliorare sotto ogni punto di vista, morale, 
                         didattico e non solo.
                          <br>
@@ -69,7 +70,7 @@
                             </div>
                 </div>
                 <div class="col50">
-                        <div class="imgBx">
+                        <div class="imgBx" data-aos="fade-down" data-aos-duration='2000'>
                              <img src="Luca-Napoli.jpg">
                         </div>
                 </div>
@@ -304,5 +305,10 @@ Le attività che ho trovato più interessanti sono quelle svolte presso Unicredi
         const canvas = document.querySelector('.vanta-canvas');
         canvas.classList.add('hide-canvas')
         </script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
     </body>
 </html>
