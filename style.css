@@ -708,7 +708,7 @@ input, textarea
     }
     .row .col50 .imgBx img
     {
-        width: 700px;
+        width: 200px;
     }
     .menu .content
     {
@@ -792,7 +792,7 @@ input, textarea
 {
     .expert .content .box .imgBx img
     {
-       width: 265px;
+       width: 260px;
     }
 }
 
@@ -800,7 +800,7 @@ input, textarea
 {
     .contact .row3 .col53 .imgBx img
     {
-       padding-right: 90px
+       width: 300px !important;
     }
 }
 
