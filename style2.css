@@ -694,3 +694,11 @@ input, textarea
        width: 300px !important;
     }
 }
+
+@media (max-width: 388px)
+{
+  section
+  {
+    min-width: 388px;
+  }
+}
