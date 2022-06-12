@@ -700,6 +700,12 @@ input, textarea
 
 @media (max-width: 991px)
 {
+
+    body
+{
+    overflow-x: hidden;
+}
+
     .vanta-canvas
     {
         display: block !important;
