@@ -710,4 +710,8 @@ input, textarea
   {
     min-width: 610px;
   }
+  .banner
+  {
+    background-size: 120%;
+  }
 }
