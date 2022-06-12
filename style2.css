@@ -702,3 +702,12 @@ input, textarea
     min-width: 388px;
   }
 }
+
+
+@media (max-height: 308px)
+{
+  section
+  {
+    min-width: 610px;
+  }
+}
